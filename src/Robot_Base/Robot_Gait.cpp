@@ -79,6 +79,7 @@ namespace Robots
 
 		param.if_check_pos_min = false;
 		param.if_check_pos_max = false;
+        param.if_check_pos_continuous = false;
 
 		for (auto &i : params)
 		{
@@ -116,7 +117,8 @@ namespace Robots
 			{
 				auto leg_id = std::stoi(i.second);
 
-				if (leg_id<0 || leg_id>5)throw std::runtime_error("invalide param in parseRecover func");
+				if (leg_id<0 || leg_id>5)\
+                    throw std::runtime_error("invalide param in parseRecover func");
 
 				std::fill_n(param.active_leg, 6, false);
 				param.active_leg[leg_id] = true;
@@ -199,25 +201,38 @@ namespace Robots
 		{
 			if (param.active_motor[i] && (param.last_motion_raw_data->at(i).cmd == aris::control::EthercatMotion::RUN))
 			{
+                std::int32_t offsetCount = param.margin_offset * cs.controller().motionAtAbs(i).pos2countRatio();
+                std::int32_t maxPosCount = cs.controller().motionAtAbs(i).maxPosCount(); 
+                std::int32_t minPosCount = cs.controller().motionAtAbs(i).minPosCount(); 
 								
-				if (param.motion_raw_data->at(i).target_pos >(cs.controller().motionAtAbs(i).maxPosCount() + param.margin_offset * cs.controller().motionAtAbs(i).pos2countRatio()))
+				if (param.if_check_pos_max && 
+                    param.motion_raw_data->at(i).target_pos >(maxPosCount + offsetCount))
 				{
-					rt_printf("Motor %i's target position is bigger than its MAX permitted value in recover, you might forget to GO HOME\n", i);
+					rt_printf("Motor %i's target position is bigger than its MAX permitted\
+                               value in recover, you might forget to GO HOME\n", i);
 					rt_printf("The min, max and current count are:\n");
 					for (std::size_t i = 0; i < cs.controller().motionNum(); ++i)
 					{
-						rt_printf("%d   %d   %d\n", cs.controller().motionAtAbs(i).minPosCount(), cs.controller().motionAtAbs(i).maxPosCount(), param.motion_raw_data->at(i).target_pos);
+						rt_printf("%d   %d   %d\n", 
+                                cs.controller().motionAtAbs(i).minPosCount(), 
+                                cs.controller().motionAtAbs(i).maxPosCount(), 
+                                param.motion_raw_data->at(i).target_pos);
 					}
 					rt_printf("recover failed\n");
 					return 0;
 				}
-				if (param.motion_raw_data->at(i).target_pos < (cs.controller().motionAtAbs(i).minPosCount() - param.margin_offset * cs.controller().motionAtAbs(i).pos2countRatio()))
+				if (param.if_check_pos_min && 
+                    param.motion_raw_data->at(i).target_pos < (minPosCount - offsetCount))
 				{
-					rt_printf("Motor %i's target position is smaller than its MIN permitted value in recover, you might forget to GO HOME\n", i);
+					rt_printf("Motor %i's target position is smaller than its MIN permitted\
+                               value in recover, you might forget to GO HOME\n", i);
 					rt_printf("The min, max and current count are:\n");
 					for (std::size_t i = 0; i < cs.controller().motionNum(); ++i)
 					{
-						rt_printf("%d   %d   %d\n", cs.controller().motionAtAbs(i).minPosCount(), cs.controller().motionAtAbs(i).maxPosCount(), param.motion_raw_data->at(i).target_pos);
+						rt_printf("%d   %d   %d\n", 
+                                cs.controller().motionAtAbs(i).minPosCount(),
+                                cs.controller().motionAtAbs(i).maxPosCount(), 
+                                param.motion_raw_data->at(i).target_pos);
 					}
 					rt_printf("recover failed\n");
 					return 0;
