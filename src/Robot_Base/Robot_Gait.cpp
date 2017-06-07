@@ -137,6 +137,10 @@ namespace Robots
 			{
 				param.margin_offset = std::stod(i.second);
 			}
+			else if (i.first == "zero")
+			{
+                printf("Zeroing function is a TODO in this robot\n");
+			}
 			else
 			{
 				throw std::runtime_error("unknown param in parseRecover func");
