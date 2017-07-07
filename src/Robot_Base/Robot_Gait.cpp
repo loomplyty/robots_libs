@@ -63,7 +63,7 @@ namespace Robots
 			else if (i.first == "leg")
 			{
 				auto leg_id = std::stoi(i.second);
-				if (leg_id<0 || leg_id>5)throw std::runtime_error("invalid param in parseRecover func");
+				if (leg_id<0 || leg_id>5)throw std::runtime_error("invalid param in basicParse func");
 
 				std::fill_n(param.active_motor, 18, false);
 				std::fill_n(param.active_motor + leg_id * 3, 3, true);
@@ -79,7 +79,7 @@ namespace Robots
 
 		param.if_check_pos_min = false;
 		param.if_check_pos_max = false;
-        param.if_check_pos_continuous = false;
+		param.if_check_pos_continuous = false;
 
 		for (auto &i : params)
 		{
@@ -118,7 +118,7 @@ namespace Robots
 				auto leg_id = std::stoi(i.second);
 
 				if (leg_id<0 || leg_id>5)\
-                    throw std::runtime_error("invalide param in parseRecover func");
+					throw std::runtime_error("invalide param in parseRecover func");
 
 				std::fill_n(param.active_leg, 6, false);
 				param.active_leg[leg_id] = true;
@@ -137,12 +137,13 @@ namespace Robots
 			{
 				param.margin_offset = std::stod(i.second);
 			}
-			else if (i.first == "zero")
+			else if (i.first == "require_zero")
 			{
-                printf("Zeroing function is a TODO in this robot\n");
+				printf("Zeroing function is a TODO in this robot\n");
 			}
 			else
 			{
+				printf("Param: %s\n", i.first.c_str());
 				throw std::runtime_error("unknown param in parseRecover func");
 			}
 		}
