@@ -459,7 +459,7 @@ namespace Robots
 		robot.SetPeb(Peb);
 		robot.SetPee(Pee);
 
-		if(param.imu_data)rt_printf("imu(pitch roll yaw): %f  %f  %f\n", param.imu_data->pitch, param.imu_data->roll, param.imu_data->yaw);
+		//if(param.imu_data)rt_printf("imu(pitch roll yaw): %f  %f  %f\n", param.imu_data->pitch, param.imu_data->roll, param.imu_data->yaw);
 		
 		double force_on_body[6], force_on_marker[6];
 
