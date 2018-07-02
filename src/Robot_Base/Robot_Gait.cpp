@@ -140,6 +140,7 @@ namespace Robots
 			else if (i.first == "require_zero")
 			{
 				printf("Zeroing function is a TODO in this robot\n");
+				param.is_zeroing_required = std::stoi(i.second) == 0 ? false : true;
 			}
 			else
 			{
@@ -198,8 +199,15 @@ namespace Robots
 
 					robot.pLegs[i]->SetPee(pEE);
 				}
+                if (param.is_zeroing_required && param.count == param.recover_count)
+                {
+                    //param.ruicong_data->at(0).isZeroingRequested[i] = true;
+                    //modified by ty
+                    param.ruicong_data->at(0).isZeroingRequested.at(i) = true;
+                }
 			}
 		}
+
 
 		// recover 自己做检查 // 
 		for (int i = 0; i<18; ++i)

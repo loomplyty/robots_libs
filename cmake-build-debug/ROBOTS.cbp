@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ROBOTS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Type_I">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Type_I.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Type_I"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Type_I/fast">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Type_I.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Type_I/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Type_II">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Type_II.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Type_II"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Type_II/fast">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Type_II.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Type_II/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Base">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Base.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Base"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Robot_Base/fast">
+				<Option output="/home/tianyuan/Desktop/robots_libs/cmake-build-debug/lib/libRobot_Base.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUNIX"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II"/>
+					<Add directory="/home/tianyuan/Desktop/robots_libs/src/Robot_Base"/>
+					<Add directory="/usr/aris/include"/>
+					<Add directory="/usr/Aris_Dependent/etherlab/include"/>
+					<Add directory="/usr/Aris_Dependent/xenomai/include"/>
+					<Add directory="/usr/Aris_Dependent"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robot_Base/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/tianyuan/Desktop/robots_libs/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/tianyuan/Desktop/robots_libs/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Base/Robot_Base.cpp">
+			<Option target="Robot_Base"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Base/Robot_Base.h">
+			<Option target="Robot_Base"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Base/Robot_Gait.cpp">
+			<Option target="Robot_Base"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Base/Robot_Gait.h">
+			<Option target="Robot_Base"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I/Robot_Type_I.cpp">
+			<Option target="Robot_Type_I"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_I/Robot_Type_I.h">
+			<Option target="Robot_Type_I"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II/Robot_Type_II.cpp">
+			<Option target="Robot_Type_II"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/src/Robot_Type_II/Robot_Type_II.h">
+			<Option target="Robot_Type_II"/>
+		</Unit>
+		<Unit filename="/home/tianyuan/Desktop/robots_libs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
