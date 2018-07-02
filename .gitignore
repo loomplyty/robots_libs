@@ -1,4 +1,6 @@
 # generated dirs
+.idea
+cmake-build-debug
 build
 doc
 test
